@@ -5,7 +5,7 @@ const { insertMany } = require("../models/listing");
 
 main()
 .then(()=>{
-    console.log("connection successful");
+    console.log("connection is successful");
 })
 .catch(err => console.log(err));
 async function main() {
